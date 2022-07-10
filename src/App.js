@@ -1,11 +1,13 @@
-import './App.css';
+import Navbar from "./components/navbar";
+import Body from "./components/body";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>test</h1> 
+      <Navbar />
+      {/* <Body /> --- error in body */}
     </>
   );
-}
+};
 
 export default App;
